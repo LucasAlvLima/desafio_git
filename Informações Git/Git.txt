@@ -1,0 +1,48 @@
+Blobs
+Armazena meta dados
+Contem o Sha1
+
+Trees
+Elas armazenam os blobs
+Contem meta dados - aponta para um blob
+guarda os nomes do arquivo
+Monta a estrutura dos arquivos
+Aponta para blobs ou outras arvores
+
+Commits
+Junta tudo
+da sentido
+aponta para tree
+aponta pra outro commit
+aponta para o autor
+aponta para a mensagem
+Carimbo de tempo - timestamp
+possui sha1
+
+
+Comandos Basicos GIT
+Largar de ser burro e lembrar de usar os comandos dentro do repositorio certo
+
+-git init - Iniciar
+
+-git add - Mover arquivos e dar inicio ao versionamento 
+
+-git commit - Criar commit
+
+Todos os comandos do git levam o nome git na frente
+
+git config --global user.email
+git config --global user.name
+
+Comandos Importantes
+git status
+git commit -m
+
+
+Apontar repositorio local para o github
+
+git remote add origin http
+git push origin master
+git pull origin master
+git clone url
+git remote -v
